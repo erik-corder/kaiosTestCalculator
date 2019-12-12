@@ -1,0 +1,30 @@
+.nav-bar{
+    background-color: #6e6ef9 !important;
+    height: 50px;
+}
+
+.title-logo{
+    padding-bottom: 15px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}   
+
+.entered-value{
+    border-color: black;
+    border-radius: 10px;
+}
+
+.card{
+    width: 25%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.btns{
+    padding: 0 20px;    
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-color: #1e87f0;
+    border-radius: 10px;
+}
