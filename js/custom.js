@@ -4,6 +4,12 @@ var NUM1 = 0;
 var NUM2 = 0;
 var NUM3 = 0;
 var NUM4 = 0;
+var NUM5 = 0;
+var NUM6 = 0;
+var NUM7 = 0;
+var NUM8 = 0;
+var NUM9 = 0;
+
 var Operation = "";
 var answer = 0;
 
@@ -48,21 +54,27 @@ function getFour() {
 
 function getFive() {
     document.getElementById("val").value = "5";
+    NUM5 = 5;
 }
+
 function getSix() {
     document.getElementById("val").value = "6";
+    NUM6 = 6;
 }
 
 function getSeven() {
     document.getElementById("val").value = "7";
+    NUM7 = 7;
 }
 
 function getEight() {
     document.getElementById("val").value = "8";
+    NUM8 = 8;
 }
 
 function getNine() {
     document.getElementById("val").value = "9";
+    NUM9 = 9;
 }
 
 function sum() {
@@ -72,14 +84,17 @@ function sum() {
 
 function multiple() {
     document.getElementById("val").value = "x";
+    Operation = "x"
 }
 
 function divide() {
     document.getElementById("val").value = "/";
+    Operation = "/"
 }
 
 function sub() {
     document.getElementById("val").value = "-";
+    Operation = "-"
 }
 
 function total() {
