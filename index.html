@@ -40,62 +40,62 @@
     </nav>
     <div class="uk-container">
         <div class="uk-margin">
-            <input class="uk-input uk-form-width-medium entered-value" type="text" placeholder="Enter Number">
+            <input class="uk-input uk-form-width-medium entered-value" id="val" type="text" placeholder="Enter Number">
         </div>
         <div class="icon-set" uk-gird>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">C</button>
+                <button onclick="Clear()" id="Clear" class="uk-button uk-button-primary btns">C</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">/</button>
+                <button onclick="getDevid()" id="divid" class="uk-button uk-button-primary btns">/</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">x</button>
+                <button onclick="multiple()" id="multiple" class="uk-button uk-button-primary btns">x</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">B</button>
-            </div>
-        </div>
-        <div class="icon-set" uk-gird>
-            <div class="card">
-                <button class="uk-button uk-button-primary btns">7</button>
-            </div>
-            <div class="card">
-                <button class="uk-button uk-button-primary btns">8</button>
-            </div>
-            <div class="card">
-                <button class="uk-button uk-button-primary btns">9</button>
-            </div>
-            <div class="card">
-                <button class="uk-button uk-button-primary btns">-</button>
+                <button onclick="back()" id="back" class="uk-button uk-button-primary btns">B</button>
             </div>
         </div>
         <div class="icon-set" uk-gird>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">4</button>
+                <button onclick="getSeven()" id="seven" class="uk-button uk-button-primary btns">7</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">5</button>
+                <button onclick="getEight()" id="eight" class="uk-button uk-button-primary btns">8</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">6</button>
+                <button onclick="getNine()" id="nine" class="uk-button uk-button-primary btns">9</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">+</button>
+                <button onclick="getMinus()" class="uk-button uk-button-primary btns">-</button>
             </div>
         </div>
         <div class="icon-set" uk-gird>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">1</button>
+                <button onclick="getFour()" id="four" class="uk-button uk-button-primary btns">4</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">2</button>
+                <button onclick="getFive()" id="five" class="uk-button uk-button-primary btns">5</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">3</button>
+                <button onclick="getSix()" id="six" class="uk-button uk-button-primary btns">6</button>
             </div>
             <div class="card">
-                <button class="uk-button uk-button-primary btns">=</button>
+                <button onclick="Pluse()"  class="uk-button uk-button-primary btns">+</button>
+            </div>
+        </div>
+        <div class="icon-set" uk-gird>
+            <div class="card">
+                <button  onclick="getOne()" id="one" value="1" class="uk-button uk-button-primary btns">1</button>
+            </div>
+            <div class="card">
+                <button onclick="getTwo()" id="two" value="2" class="uk-button uk-button-primary btns">2</button>
+            </div>
+            <div class="card">
+                <button onclick="getThree()" id="three" class="uk-button uk-button-primary btns">3</button>
+            </div>
+            <div class="card">
+                <button id="equal" class="uk-button uk-button-primary btns">=</button>
             </div>
         </div>
         <div class="icon-set" uk-gird>
